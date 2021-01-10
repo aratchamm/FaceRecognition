@@ -36,8 +36,6 @@ def markAttendance(name):
             f.writelines(f'\n{name},{dtString}')
 
 
-
-
 encodeListKnown = findEncodings(images)
 print('Encoding Complete')
 

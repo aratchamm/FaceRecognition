@@ -72,13 +72,30 @@
       <updated>1610293179876</updated>
       <workItem from="1610293182200" duration="107000" />
       <workItem from="1610293401856" duration="28000" />
+      <workItem from="1610294164738" duration="41000" />
+      <workItem from="1610294245744" duration="460000" />
+      <workItem from="1610294828393" duration="117000" />
+      <workItem from="1610295105572" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AttendanceProject_py$AttendanceProject.coverage" NAME="AttendanceProject Coverage Results" MODIFIED="1610295113490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webcam$AttendanceProject.coverage" NAME="AttendanceProject Coverage Results" MODIFIED="1610293405530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
