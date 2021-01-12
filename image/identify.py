@@ -7,19 +7,24 @@ bill_face_encoding = face_recognition.face_encodings(image_of_bill)[0]
 image_of_steve = face_recognition.load_image_file('./img/known/Steve Jobs.jpg')
 steve_face_encoding = face_recognition.face_encodings(image_of_steve)[0]
 
+image_of_aj = face_recognition.load_image_file('./img/known/Thanunchai.jpg')
+aj_face_encoding = face_recognition.face_encodings(image_of_aj)[0]
+
 # Create array of encodings and names
 known_face_encodings = [
     bill_face_encoding,
-    steve_face_encoding
+    steve_face_encoding,
+    aj_face_encoding
 ]
 
 known_face_names = [
     "Bill Gates",
-    "Steve Jobs"
+    "Steve Jobs",
+    "Aj. Thanunchai"
 ]
 
 #Load test image to find faces in
-test_image = face_recognition.load_image_file('./img/groups/team1.jpg')
+test_image = face_recognition.load_image_file('./img/unknown/Thanunchai.jpg')
 
 # Find faces in test image
 face_locations = face_recognition.face_locations(test_image)
